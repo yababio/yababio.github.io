@@ -12,8 +12,6 @@ output:
 
 Hi, thanks for stopping by!
 
-My name is Yaa and I am a 2nd-year MPH Epidemiology and Applied Biostatistics student at Columbia University Mailman School of Public Health. I'm passionate about health equity and improving health outcomes on a global scale. My current research interests include infectious disease epidemiology (HIV and neglected tropical diseases), as well as substance abuse epidemiology. 
+My name is Yaa and I am a 2nd-year MPH [Epidemiology](https://www.publichealth.columbia.edu/academics/departments/epidemiology) and [Applied Biostatistics](https://www.publichealth.columbia.edu/academics/degrees/master-public-health/certificates/applied-biostatistics) student at [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/). I'm passionate about health equity and improving health outcomes on a global scale. My current research interests include infectious disease epidemiology (HIV and neglected tropical diseases), as well as substance abuse epidemiology. 
 
-## Link to page within the site
 
-[Resume](resume.html)
