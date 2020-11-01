@@ -7,6 +7,51 @@ output:
     
 ---
 
-## Academic and professional experience
+
+### Education
+
+**Columbia University, Mailman School of Public Health**| New York, NY, May 2021       
+*Master of Public Health (MPH) in Epidemiology*, Certificate in Applied Biostatistics 
 
 
+Relevant coursework: Research Methods and Applications (Quantitative & Qualitative), Analysis of Categorical Data, Application of Epidemiological Research Methods (SAS), Health Economics, US & Comparative Healthcare Systems Organizations: Healthcare Data Analytics, Columbia Mailman Consulting Club
+
+
+**University of Texas at Austin**| Austin TX, May 2018                                  
+*Bachelor of Arts (BA), Health and Society*, Conc. in Health Care and Economy, Chemistry Minor 
+Pre- Health Professions Certificate. Dean’s List (2018). University Honors (2017, 2018).
+
+Capstone Statistical Analysis and Poster Presentation: The Effects of GDP Per Capita and Improved Water Source Access on HIV Prevalence (in the year 2015)
+
+### Experience
+**Graduate Research Assistant, Department of Medicine-Division of Infectious Diseases**
+Columbia University Irving Medical Center New York, NY, May 2020-October 2020   
+
+* Assisted in the development of costed integration framework (CIF) designed to introduce intravaginal HIV prevention
+pharmaceutical product (Dapivirine ring) into family planning facilities in sub-Saharan Africa
+* Conducts systematic review of existing literature to determine variables considered in costed integration for oral PrEP
+* Developed presentation materials for stakeholder consultations
+* Managed the recruitment, screening, informed consent process, and scheduling for potential patients in COVID-19
+Seroprevalence and Mental Health Burden Among Healthcare Workers (ARMOR) study
+
+
+**Research Intern, Department of Parasitology**                                       
+Noguchi Memorial Institute for Medical Research Accra, Ghana, Oct 2018-Feb 2019 
+
+* Utilized R software to analyze hookworm prevalence and drug adherence in Apesika, Ghana to yield actionable
+insights for collection of studies managed under the Noguchi Institute Initiative for NTDs Elimination
+* Ran descriptive statistics and relevant analyses on data sets consisting of over 1,000 patient respondents
+*  Performed diagnostic laboratory techniques for detection of neglected tropical diseases
+
+**Office Assistant**                                                                  
+Univ. of Texas Dept. of Environmental Health & Safety Austin, TX, Oct 2017-May 2018 
+
+* Managed data entry of electronic vehicle records and vehicle mileage records in university-wide database
+* Efficiently assessed and addressed laboratory and animal safety issues on campus by fielding concerns from faculty
+and students to appropriate departmental personnel
+
+
+### Skills
+
+* Proficient in Microsoft Office, SAS, R
+* Certificates: Human Subjects Protection- Biomedical Research,Columbia University HIPAA Privacy and Security Essentialsb
