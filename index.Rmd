@@ -6,10 +6,14 @@ output:
     toc_float: true
    
 ---
-<img src="Images/IMG_0939.jpg" style="width:75%">
+##### MPH Epidemiology Candidate, Columbia University Mailman School of Public Health
+<img src="Images/IMG_0939.jpg" style="width:50%">
 
 
-## Links to other websites
+Hi, thanks for stopping by!
+
+My name is Yaa and I am a 2nd-year MPH Epidemiology and Applied Biostatistics student at Columbia University Mailman School of Public Health. I'm passionate about health equity and  My current research interests include infectious disease epidemiology (HIV and neglected tropical diseases), as well as substance abuse epidemiology. 
+
 
  
  
