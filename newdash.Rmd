@@ -32,7 +32,8 @@ rest_inspec =
    sample_n(5000)
 ```
 
-
+ Column {data-width=650}
+-----------------------------------------------------------------------
 ### Distribution of Restaurant Grades by Borough
 
 ```{r grades, warning = FALSE}
@@ -45,9 +46,11 @@ rest_inspec %>%
     xaxis = list(title = "Borough"),
     yaxis = list(title = "Restaurant Grade")
   )
+
+
 ```
 
-
+Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### Distribution of Restaurant Inspection Scores by Borough
