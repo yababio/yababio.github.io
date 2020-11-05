@@ -6,7 +6,7 @@ navbar:
     - text: "Resume"
       href: resume.html
     - text: "Dashboard"
-      href: dashboard.html
+      href: Dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<yoa2102@cumc.columbia.edu>
     - icon: fa-github fa-lg
