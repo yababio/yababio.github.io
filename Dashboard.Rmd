@@ -26,7 +26,6 @@ scale_colour_discrete = scale_colour_viridis_d
 scale_fill_discrete = scale_fill_viridis_d
 ```
 
-Column {data-width=650}
 -----------------------------------------------------------------------
 
 ```{r data}
@@ -34,14 +33,12 @@ rest_inspec =
   rest_inspec %>% 
    filter(grade %in%  c("A", "B", "C"), boro != "Missing") %>%
    sample_n(5000)
-
-
 ```
 
 
 ### Distribution of Restaurant Grades by Borough
 
-```{r grades}
+```{r grades, warning = FALSE}
 
 rest_inspec %>%
   select(boro, grade)  %>%
@@ -53,7 +50,7 @@ rest_inspec %>%
   )
 ```
 
-Column {data-width=350}
+
 -----------------------------------------------------------------------
 
 ### Distribution of Restaurant Inspection Scores by Borough
