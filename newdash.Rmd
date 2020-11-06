@@ -44,7 +44,7 @@ Column{data-width=350}
 
 
 
-```{r scores}
+```{r scores, warning = FALSE}
 rest_inspec %>%
   plot_ly(
     y = ~score, color = ~boro, type = "box", colors = "Set2") %>%
