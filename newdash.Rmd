@@ -23,7 +23,7 @@ rest_inspec =
 
 Column {data-width=550}
 -----------------------------------------------------------------------
-### Restaurant Grades in Total Dataset (Bar Graph)
+
 
 ```{r grades, warning = FALSE}
 
@@ -31,7 +31,7 @@ rest_inspec %>%
   count(grade) %>%
   plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar", colors = "Set3" ) %>%
   layout(
-    title = "Total Distribution of Restaurant Grades (A, B, C)",
+    title = "Total Distribution of Restaurant Grades (A, B, C) Bar Graph",
     xaxis = list(title = "Restaurant Grade"),
     yaxis = list(title = "Number of Grades Awarded")
   )
@@ -42,21 +42,21 @@ rest_inspec %>%
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Restaurant Inspection Scores by Borough (Boxplot)
+
 
 ```{r scores}
 rest_inspec %>%
   plot_ly(
     y = ~score, color = ~boro, type = "box", colors = "Set2") %>%
   layout(
-    title = "Distribution of Restaurant Inspection Scores by Borough",
+    title = "Distribution of Restaurant Inspection Scores by Borough Boxplot",
     xaxis = list(title = "Borough"),
     yaxis = list(title = "Restaurant Inspection Score")
   )
   
 ```
 
-### Restaurant Inspection Scores and Grades by Borough (Scatterplot)
+
 
 ```{r scatter, message = FALSE}
 
@@ -65,7 +65,7 @@ rest_inspec %>%
   plot_ly(
     x = ~score, y = ~boro, type = "scatter", color = ~grade, colors = "Set1") %>%
    layout(
-    title = "Distribution of Restaurant Inspection Scores and Grades by Borough",
+    title = "Restaurant Inspection Scores and Grades by Borough Scatterplot",
     xaxis = list(title = "Restaurant Inspection Score"),
     yaxis = list(title = "Borough")
   )
