@@ -58,7 +58,7 @@ rest_inspec %>%
 
 
 
-```{r scatter, message = FALSE}
+```{r scatter, message = FALSE, warning = FALSE}
 
 
 rest_inspec %>%
