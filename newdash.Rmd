@@ -11,18 +11,7 @@ library(plotly)
 library("p8105.datasets")
 library(flexdashboard)
 
-knitr::opts_chunk$set(
-	fig.width = 6, 
-  fig.asp = .6,
-  out.width = "90%"
-)
-theme_set(theme_minimal() + theme(legend.position = "bottom"))
-options(
-  ggplot2.continuous.colour = "viridis",
-  ggplot2.continuous.fill = "viridis"
-)
-scale_colour_discrete = scale_colour_viridis_d
-scale_fill_discrete = scale_fill_viridis_d
+
 ```
 
 ```{r data}
@@ -32,44 +21,54 @@ rest_inspec =
    sample_n(5000)
 ```
 
- Column {data-width=650}
+Column{data-width=650}
 -----------------------------------------------------------------------
-### Distribution of Restaurant Grades by Borough
+### Restaurant Grades in Total Dataset (Bar Graph)
 
 ```{r grades, warning = FALSE}
 
 rest_inspec %>%
-  select(boro, grade)  %>%
-  plot_ly(x = ~boro, color = ~grade, type = "histogram", colors = "Set3" ) %>%
+  count(grade) %>%
+  plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar", colors = "Set3" ) %>%
   layout(
-    title = "Distribution of Restaurant Grades (A, B, C) by Borough",
-    xaxis = list(title = "Borough"),
-    yaxis = list(title = "Restaurant Grade")
+    title = "Total Distribution of Restaurant Grades (A, B, C)",
+    xaxis = list(title = "Restaurant Grade"),
+    yaxis = list(title = "Number of Grades Awarded")
   )
 
 
 ```
 
-Column {data-width=350}
+Column{data-width=350}
 -----------------------------------------------------------------------
 
-### Distribution of Restaurant Inspection Scores by Borough
+### Restaurant Inspection Scores by Borough (Boxplot)
 
 ```{r scores}
 rest_inspec %>%
   plot_ly(
     y = ~score, color = ~boro, type = "box", colors = "Set2") %>%
   layout(
-    title = "Distribution of Restaurant Insepction Scores by Borough",
+    title = "Distribution of Restaurant Inspection Scores by Borough",
     xaxis = list(title = "Borough"),
     yaxis = list(title = "Restaurant Inspection Score")
   )
   
 ```
 
-### Chart C
+###  Restaurant Inspection Scores and Grades by Borough (Scatterplot)
 
-```{r}
+```{r scatter, message = FALSE}
+
+
+rest_inspec %>%
+  plot_ly(
+    x = ~score, y = ~boro, type = "scatter", color = ~grade, colors = "Set1") %>%
+   layout(
+    title = "Distribution of Restaurant Inspection Scores and Grades by Borough",
+    xaxis = list(title = "Score"),
+    yaxis = list(title = "Borough")
+  )
 
 ```
 
