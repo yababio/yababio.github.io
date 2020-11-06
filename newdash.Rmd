@@ -21,9 +21,9 @@ rest_inspec =
    sample_n(5000)
 ```
 
-Column{data-width=650}
+
 -----------------------------------------------------------------------
-### Restaurant Grades in Total Dataset (Bar Graph)
+### **Restaurant Grades in Total Dataset (Bar Graph)**
 
 ```{r grades, warning = FALSE}
 
@@ -39,10 +39,10 @@ rest_inspec %>%
 
 ```
 
-Column{data-width=350}
+
 -----------------------------------------------------------------------
 
-### Restaurant Inspection Scores by Borough (Boxplot)
+### **Restaurant Inspection Scores by Borough (Boxplot)**
 
 ```{r scores}
 rest_inspec %>%
@@ -56,7 +56,7 @@ rest_inspec %>%
   
 ```
 
-###  Restaurant Inspection Scores and Grades by Borough (Scatterplot)
+### **Restaurant Inspection Scores and Grades by Borough (Scatterplot)**
 
 ```{r scatter, message = FALSE}
 
@@ -66,7 +66,7 @@ rest_inspec %>%
     x = ~score, y = ~boro, type = "scatter", color = ~grade, colors = "Set1") %>%
    layout(
     title = "Distribution of Restaurant Inspection Scores and Grades by Borough",
-    xaxis = list(title = "Score"),
+    xaxis = list(title = "Restaurant Inspection Score"),
     yaxis = list(title = "Borough")
   )
 
