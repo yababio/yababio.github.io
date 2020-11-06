@@ -21,7 +21,7 @@ rest_inspec =
    sample_n(5000)
 ```
 
-
+Column {data-width=650}
 -----------------------------------------------------------------------
 ### **Restaurant Grades in Total Dataset (Bar Graph)**
 
@@ -39,7 +39,7 @@ rest_inspec %>%
 
 ```
 
-
+Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### **Restaurant Inspection Scores by Borough (Boxplot)**
